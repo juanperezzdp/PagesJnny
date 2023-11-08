@@ -11,6 +11,7 @@ import Navidad10 from "../img/navidad/Navidad-11.jpeg";
 
 export const navidad = [
   {
+    id: "01",
     title: "Set de navidad 🎅🏻",
     price: 85.0,
     description:
@@ -18,6 +19,7 @@ export const navidad = [
     image: Navidad1,
   },
   {
+    id: "02",
     title: "Set de navidad 🎅🏻",
     price: 85.0,
     description:
@@ -25,6 +27,7 @@ export const navidad = [
     image: Navidad2,
   },
   {
+    id: "03",
     title: "Set de navidad 🎅🏻",
     price: 85.0,
     description:
@@ -32,6 +35,7 @@ export const navidad = [
     image: Navidad3,
   },
   {
+    id: "04",
     title: "Set de navidad 🎅🏻",
     price: 85.0,
     description:
@@ -39,6 +43,7 @@ export const navidad = [
     image: Navidad4,
   },
   {
+    id: "05",
     title: "Set de navidad 🎅🏻",
     price: 85.0,
     description:
@@ -46,6 +51,7 @@ export const navidad = [
     image: Navidad5,
   },
   {
+    id: "06",
     title: "Set de navidad 🎅🏻",
     price: 75.0,
     description:
@@ -53,6 +59,7 @@ export const navidad = [
     image: Navidad6,
   },
   {
+    id: "07",
     title: "Set de navidad 🎅🏻",
     price: 75.0,
     description:
@@ -60,6 +67,7 @@ export const navidad = [
     image: Navidad7,
   },
   {
+    id: "08",
     title: "Set de navidad 🎅🏻",
     price: 75.0,
     description:
@@ -67,6 +75,7 @@ export const navidad = [
     image: Navidad8,
   },
   {
+    id: "09",
     title: "Set de navidad 🎅🏻",
     price: 75.0,
     description:
@@ -74,6 +83,7 @@ export const navidad = [
     image: Navidad9,
   },
   {
+    id: "10",
     title: "Set de navidad 🎅🏻",
     price: 85.0,
     description:

@@ -5,20 +5,17 @@ const DetailProducts = () => {
   const location = useLocation();
   const detailData = location.state && location.state.detailData;
 
-  // Función para abrir la URL de WhatsApp al hacer clic en el botón
   const handleReserveClick = () => {
     if (detailData) {
-      // Construir el mensaje con los detalles del producto
       const message = `Título: ${encodeURIComponent(
         detailData.title
-      )}%0ADescripción: ${encodeURIComponent(
-        detailData.description
-      )}%0AImagen: ${encodeURIComponent(detailData.image)}`;
+      )}%0ADescripción: ${encodeURIComponent(detailData.description)}`;
 
-      // Construir la URL de WhatsApp
-      const whatsappUrl = `http://api.whatsapp.com/send?phone=573222935748&text=${message}`;
+      // Reemplaza "URL_DE_TU_IMAGEN" con la URL de la imagen alojada en un servidor.
+      const imageUrl = "detailData.image";
 
-      // Redirigir al usuario a la URL de WhatsApp
+      const whatsappUrl = `http://api.whatsapp.com/send?phone=573222935748&text=${message}%0A${imageUrl}`;
+
       window.location.href = whatsappUrl;
     }
   };

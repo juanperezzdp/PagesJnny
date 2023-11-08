@@ -11,7 +11,9 @@ const DetailProducts = () => {
       // Construir el mensaje con los detalles del producto
       const message = `Título: ${encodeURIComponent(
         detailData.title
-      )}%0ADescripción: ${encodeURIComponent(detailData.description)}`;
+      )}%0ADescripción: ${encodeURIComponent(
+        detailData.description
+      )}%0AImagen: ${encodeURIComponent(detailData.image)}`;
 
       // Construir la URL de WhatsApp
       const whatsappUrl = `http://api.whatsapp.com/send?phone=573222935748&text=${message}`;

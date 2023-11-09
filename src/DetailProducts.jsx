@@ -12,7 +12,7 @@ const DetailProducts = () => {
         detailData.title
       )}%0ADescripción: ${encodeURIComponent(detailData.description)}`;
 
-      const imageUrl = `https://jazzy-heliotrope-5a99dd.netlify.app/${detailData.image}`;
+      const imageUrl = `https://jazzy-heliotrope-5a99dd.netlify.app/${detailData.image.img1‎}`;
 
       const whatsappUrl = `http://api.whatsapp.com/send?phone=573222935748&text=${message}%0A${imageUrl}`;
 

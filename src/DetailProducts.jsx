@@ -7,7 +7,8 @@ const DetailProducts = () => {
 
   const handleReserveClick = () => {
     if (detailData) {
-      const message = `Título: ${encodeURIComponent(
+      const message = `Hola👋🏻 un gusto en saludarte, estoy interesada en saber más sobre este producto:
+      Título: ${encodeURIComponent(
         detailData.title
       )}%0ADescripción: ${encodeURIComponent(detailData.description)}`;
 
@@ -20,15 +21,28 @@ const DetailProducts = () => {
   };
 
   return (
-    <div>
+    <div className="bg-violet-100 h-[100vh]">
       {detailData ? (
-        <div>
-          <img className="w-80" src={detailData.image} alt="Products" />
-          <h2>{detailData.title}</h2>
-          <p>Descripción:</p>
-          <p>{detailData.description}</p>
+        <div className="p-4 flex flex-col items-center justify-center gap-4">
+          <img
+            className="w-80 rounded-2xl"
+            src={detailData.image.img1}
+            alt="Products"
+          />
+          <h2 className="text-3xl">{detailData.title}</h2>
+          <div>
+            <p>Descripción:</p>
+            <p>{detailData.description}</p>
+            <p className="text-5xl">
+              $
+              <span className=" text-green-800">
+                {detailData.price.toLocaleString("es-US")}
+              </span>{" "}
+            </p>
+          </div>
+
           <button
-            className="block w-full select-none rounded-lg hover:bg-violet-500 bg-violet-800 py-3.5 px-7 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-violet-800/20 transition-all hover:shadow-lg hover:shadow-violet-800/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            className="mt-4 block w-full select-none rounded-lg hover:bg-violet-500 bg-violet-800 py-3.5 px-7 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-violet-800/20 transition-all hover:shadow-lg hover:shadow-violet-800/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
             onClick={handleReserveClick}
           >
             Reserver por Whatsapp

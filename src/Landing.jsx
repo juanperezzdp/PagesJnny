@@ -24,9 +24,8 @@ const Landing = () => {
             Accesorios personalizados para los chiquis de la casa.
           </p>
           <p className="text-sm font-bold">✂️Somos fabricantes.</p>
-          <p className="text-sm font-bold">
-            🛵 contraentrega a nivel nacional Gracias por preferirnos..!
-          </p>
+          <p className="text-sm font-bold">🛵Contraentrega a nivel nacional</p>
+          <p className="text-sm font-bold">😁Gracias por preferirnos..!</p>
         </div>
       </div>
 

@@ -1,93 +1,54 @@
-import Navidad1 from "../img/navidad/Navidad-1.jpeg";
-import Navidad2 from "../img/navidad/Navidad-3.jpeg";
-import Navidad3 from "../img/navidad/Navidad-2.jpeg";
-import Navidad4 from "../img/navidad/Navidad-4.jpeg";
-import Navidad5 from "../img/navidad/Navidad-5.jpeg";
-import Navidad6 from "../img/navidad/Navidad-6.jpeg";
-import Navidad7 from "../img/navidad/Navidad-8.jpeg";
-import Navidad8 from "../img/navidad/Navidad-9.jpeg";
-import Navidad9 from "../img/navidad/Navidad-10.jpeg";
-import Navidad10 from "../img/navidad/Navidad-11.jpeg";
+import Navidad1 from "../img/navidad/NavidadRefNR01.jpeg";
+import Navidad2 from "../img/navidad/NavidadReffNR01.jpeg";
+
+import Navidad3 from "../img/navidad/NavidadRefNR02.jpeg";
+import Navidad4 from "../img/navidad/NavidadReffNR02.jpeg";
+
+import Navidad5 from "../img/navidad/NavidadRefNR03.jpeg";
+import Navidad6 from "../img/navidad/NavidadReffNR03.jpeg";
+
+import Navidad7 from "../img/navidad/NavidadRefNR04.jpeg";
+import Navidad8 from "../img/navidad/NavidadReffNR04.jpeg";
 
 export const navidad = [
   {
     id: "01",
-    title: "Set de navidad 🎅🏻",
-    price: 85.0,
+    title: "Set Navidad Reno 🎅🏻",
+    ref: "NR01",
+    price: 75000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description:
-      "Tutú de cintas con copitos estampados, balaca y medias españolas",
-    image: Navidad1,
+      "Mameluco, Tutú con copitos estampados, Balaca personalizada, Medias españolas",
+    image: { img1: Navidad1, img2: Navidad2 },
   },
   {
     id: "02",
-    title: "Set de navidad 🎅🏻",
-    price: 85.0,
+    title: "Set Navidad pingüino 🎅🏻",
+    ref: "NR02",
+    price: 75000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description:
-      "Mameluco personalizado, Tutú de cintas con copitos estampados, Balaca y Medias españolas",
-    image: Navidad2,
+      "Mameluco, Tutú con copitos estampados, Balaca personalizada, Medias españolas",
+    image: { img1: Navidad3, img2: Navidad4 },
   },
   {
     id: "03",
-    title: "Set de navidad 🎅🏻",
-    price: 85.0,
+    title: "Set Navidad pingüino blanco 🎅🏻",
+    ref: "NR03",
+    price: 75000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description:
-      "Tutú de cintas con copitos estampados, balaca y medias españolas",
-    image: Navidad3,
+      "Mameluco, Tutú con copitos estampados, Balaca personalizada, Medias españolas",
+    image: { img1: Navidad5, img2: Navidad6 },
   },
   {
     id: "04",
-    title: "Set de navidad 🎅🏻",
-    price: 85.0,
+    title: "Set Navidad blanco 🎅🏻",
+    ref: "NR04",
+    price: 75000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description:
-      "Mameluco personalizado, Tutú con copitos estampados, Gorro personalizado  y Medias españolas",
-    image: Navidad4,
-  },
-  {
-    id: "05",
-    title: "Set de navidad 🎅🏻",
-    price: 85.0,
-    description:
-      "Mameluco personalizado, Tutú de cintas, Balaca y Medias españolas",
-    image: Navidad5,
-  },
-  {
-    id: "06",
-    title: "Set de navidad 🎅🏻",
-    price: 75.0,
-    description:
-      "Mameluco, Tutú de cintas con copitos estampados, balaca personalizado y medias españolas",
-    image: Navidad6,
-  },
-  {
-    id: "07",
-    title: "Set de navidad 🎅🏻",
-    price: 75.0,
-    description:
-      "Mameluco, Tutú de cintas con copitos estampados, balaca personalizado y medias españolas",
-    image: Navidad7,
-  },
-  {
-    id: "08",
-    title: "Set de navidad 🎅🏻",
-    price: 75.0,
-    description:
-      "Mameluco, Tutú de cintas con copitos estampados, balaca personalizado y medias españolas",
-    image: Navidad8,
-  },
-  {
-    id: "09",
-    title: "Set de navidad 🎅🏻",
-    price: 75.0,
-    description:
-      "Mameluco personalizado, Tutú de cintas con copitos estampados, balaca personalizado y medias españolas",
-    image: Navidad9,
-  },
-  {
-    id: "10",
-    title: "Set de navidad 🎅🏻",
-    price: 85.0,
-    description:
-      "Mameluco personalizado, Tutú de cintas con copitos estampados, balaca personalizado y medias españolas",
-    image: Navidad10,
+      "Mameluco, Tutú con copitos estampados, Balaca personalizada, Medias españolas",
+    image: { img1: Navidad7, img2: Navidad8 },
   },
 ];

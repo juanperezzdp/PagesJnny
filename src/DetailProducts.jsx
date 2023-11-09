@@ -11,8 +11,7 @@ const DetailProducts = () => {
         detailData.title
       )}%0ADescripción: ${encodeURIComponent(detailData.description)}`;
 
-      // Reemplaza "URL_DE_TU_IMAGEN" con la URL de la imagen alojada en un servidor.
-      const imageUrl = "detailData.image";
+      const imageUrl = `https://jazzy-heliotrope-5a99dd.netlify.app/${detailData.image}`;
 
       const whatsappUrl = `http://api.whatsapp.com/send?phone=573222935748&text=${message}%0A${imageUrl}`;
 
@@ -32,7 +31,7 @@ const DetailProducts = () => {
             className="block w-full select-none rounded-lg hover:bg-violet-500 bg-violet-800 py-3.5 px-7 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-violet-800/20 transition-all hover:shadow-lg hover:shadow-violet-800/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
             onClick={handleReserveClick}
           >
-            Reserver
+            Reserver por Whatsapp
           </button>
         </div>
       ) : (

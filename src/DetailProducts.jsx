@@ -13,7 +13,7 @@ const DetailProducts = () => {
       )}
       %0ARef: ${encodeURIComponent(detailData.ref)}
       %0ADescripción: ${encodeURIComponent(detailData.description)}
-      %0ADescripción: ${encodeURIComponent(detailData.price)}`;
+      %0APrecio: ${encodeURIComponent(detailData.price)}`;
 
       const imageUrl = `https://jazzy-heliotrope-5a99dd.netlify.app${detailData.image.img1}`;
 

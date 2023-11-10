@@ -15,13 +15,13 @@ const Catalogue = () => {
 
   return (
     <>
-      <div className="bg-violet-100 w-full h-full p-4 flex flex-wrap justify-around gap-2">
+      <div className="bg-violet-50 w-full h-full flex flex-wrap justify-around pt-4 gap-2">
         {navidad.map((data, index) => (
           <div
             key={index}
-            className="relative flex h-90 w-full max-w-[10rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg"
+            className="relative flex h-90 w-full max-w-[10.5rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg"
           >
-            <div className="relative mx-4 mt-4 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
+            <div className="relative mx-2 mt-2 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
               <img src={data.image.img1} alt="ui/ux review check" />
               <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60"></div>
               <button

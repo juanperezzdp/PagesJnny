@@ -5,6 +5,7 @@ const DetailProducts = () => {
   const location = useLocation();
   const detailData = location.state && location.state.detailData;
 
+  console.log(detailData.image.img1);
   const handleReserveClick = () => {
     if (detailData) {
       const message = `Hola👋🏻 un gusto en saludarte, estoy interesada en saber más sobre este producto:
@@ -12,7 +13,7 @@ const DetailProducts = () => {
         detailData.title
       )}%0ADescripción: ${encodeURIComponent(detailData.description)}`;
 
-      const imageUrl = `https://jazzy-heliotrope-5a99dd.netlify.app/${detailData.image}`;
+      const imageUrl = `https://jazzy-heliotrope-5a99dd.netlify.app/${detailData.image.img1}`;
 
       const whatsappUrl = `http://api.whatsapp.com/send?phone=573222935748&text=${message}%0A${imageUrl}`;
 
@@ -37,7 +38,7 @@ const DetailProducts = () => {
               $
               <span className=" text-green-800">
                 {detailData.price.toLocaleString("es-US")}
-              </span>{" "}
+              </span>
             </p>
           </div>
 

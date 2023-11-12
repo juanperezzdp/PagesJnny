@@ -34,7 +34,7 @@ const DetailProducts = () => {
               src={detailData.image.img1}
               alt="Products"
             />
-            <h2 className="font-bold text-2xl">{detailData.title}</h2>
+            <h2 className="font-bold text-2xl ">{detailData.title}</h2>
             <div>
               <p className="text-xl mb-2">
                 <span className="font-bold">Ref: </span>

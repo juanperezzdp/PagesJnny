@@ -4,8 +4,6 @@ import { useNavigate } from "react-router-dom";
 const Catalogue = () => {
   const navigate = useNavigate();
 
-  console.log(navidad);
-
   const handleDataClick = (item) => {
     navigate(`/detailsproducts/${item.id}`, {
       state: { detailData: item },
@@ -18,11 +16,11 @@ const Catalogue = () => {
         {navidad.map((data, index) => (
           <div
             key={index}
-            className="relative flex h-90 w-full max-w-[12.3rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-2xl"
+            className="relative flex h-90 w-full max-w-[11rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-2xl"
           >
             <div className="relative mx-2 mt-2 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
               <img className="h-52" src={data.image.img1} alt="img" />
-              <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60"></div>
+
               <button
                 className="!absolute top-4 right-4 h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-full text-center align-middle font-sans text-xs font-medium uppercase text-red-500 transition-all hover:bg-red-500/10 active:bg-red-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                 type="button"
@@ -34,7 +32,7 @@ const Catalogue = () => {
             </div>
             <div className="p-2">
               <div className="mb-3 h-10">
-                <h5 className="block font-sans text-lg font-medium leading-snug tracking-normal text-blue-gray-900 antialiased">
+                <h5 className="block font-sans text-base font-medium leading-snug tracking-normal text-blue-gray-900 antialiased">
                   {data.title}
                 </h5>
               </div>

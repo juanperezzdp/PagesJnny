@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
-import Logo from "./img/Animation.gif";
-import { BiPhotoAlbum } from "react-icons/bi";
+import Logo from "./img/logo.jpeg";
 import { BsWhatsapp, BsInstagram } from "react-icons/bs";
+import { TbChristmasTree } from "react-icons/tb";
 
 const Landing = () => {
   const navigate = useNavigate();
@@ -36,9 +36,9 @@ const Landing = () => {
               }}
               className="w-full h-8 flex justify-center items-center  hover:bg-violet-500 bg-violet-800 rounded-3xl text-white"
             >
-              <div className="flex items-center">
-                <BiPhotoAlbum className="mr-4 text-2xl" />
-                <p>Catalogo</p>
+              <div className="flex items-center w-44">
+                <TbChristmasTree className="mr-4 text-2xl" />
+                <p>Catalogo Navidad</p>
               </div>
             </button>
 
@@ -47,7 +47,7 @@ const Landing = () => {
               target="_blank"
               to="http://api.whatsapp.com/send?phone=573222935748"
             >
-              <div className="flex items-center">
+              <div className="flex items-center w-44">
                 <BsWhatsapp className="mr-4 text-xl" />
                 <p>Whatsapp</p>
               </div>
@@ -58,7 +58,7 @@ const Landing = () => {
               target="_blank"
               to="https://www.instagram.com/babifel_co/?hl=es"
             >
-              <div className="flex items-center">
+              <div className="flex items-center w-44">
                 <BsInstagram className="mr-4 text-xl" />
                 <p>Instagram</p>
               </div>

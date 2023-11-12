@@ -18,6 +18,11 @@ import Navidad11 from "../img/navidad/NavidadReffNR04.jpeg";
 import Navidad12 from "../img/navidad/NavidadRefNB05.jpeg";
 import Navidad13 from "../img/navidad/NavidadReffNB05.jpeg";
 
+import Navidad14 from "../img/navidad/NavidadRefNR08.jpeg";
+
+import Navidad15 from "../img/navidad/NavidadRefNR010.jpeg";
+import Navidad16 from "../img/navidad/NavidadReffNR010.jpeg";
+
 export const navidad = [
   {
     id: "01",
@@ -88,5 +93,25 @@ export const navidad = [
     description:
       "Mameluco, Tutú con copos, Gorro personalizada, Medias españolas",
     image: { img1: Navidad12, img2: Navidad13 },
+  },
+  {
+    id: "08",
+    title: "Set santa con gorro 🎅🏻",
+    ref: "NR08",
+    price: 80000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
+    description:
+      "Mameluco personalizado, Tutú con copitos, Gorro personalizada, Medias españolas",
+    image: { img1: Navidad14 },
+  },
+  {
+    id: "09",
+    title: "Set Navidad Minnie con gorro 🎅🏻",
+    ref: "NR010",
+    price: 80000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
+    description:
+      "Mameluco personalizado, Tutú, Gorro personalizada, Medias españolas",
+    image: { img1: Navidad15, img2: Navidad16 },
   },
 ];

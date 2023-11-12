@@ -142,7 +142,7 @@ export const NavidadNiña = [
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description:
       "Mameluco, Tutú con estrellas, Balaca personalizada, Medias españolas",
-    image: { img1: Navidad9 },
+    image: { img1: Navidad9, img2: Navidad9 },
   },
   {
     id: "06",
@@ -172,7 +172,7 @@ export const NavidadNiña = [
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description:
       "Mameluco personalizado, Tutú con copitos, Gorro personalizada, Medias españolas",
-    image: { img1: Navidad14 },
+    image: { img1: Navidad14, img2: Navidad14 },
   },
   {
     id: "09",
@@ -202,7 +202,7 @@ export const NavidadNiña = [
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description:
       "Mameluco personalizado, Tutú de cintas con copitos, Balaca, Medias españolas",
-    image: { img1: Navidad19 },
+    image: { img1: Navidad19, img2: Navidad19 },
   },
   {
     id: "12",
@@ -270,7 +270,7 @@ export const NavidadNiña = [
     price: 50000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description: "Tutú de cintas con copitos, Balaca personalizada",
-    image: { img1: Navidad30 },
+    image: { img1: Navidad30, img2: Navidad30 },
   },
   {
     id: "19",
@@ -288,7 +288,7 @@ export const NavidadNiña = [
     price: 60000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description: "Mameluco, Balaca, Medias españolas",
-    image: { img1: Navidad33 },
+    image: { img1: Navidad33, img2: Navidad33 },
   },
   {
     id: "21",
@@ -297,7 +297,7 @@ export const NavidadNiña = [
     price: 60000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description: "Mameluco, Gorro personalizado, Medias españolas",
-    image: { img1: Navidad34 },
+    image: { img1: Navidad34, img2: Navidad34 },
   },
   {
     id: "22",
@@ -315,7 +315,7 @@ export const NavidadNiña = [
     price: 60000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description: "Mameluco, Gorro personalizado, Medias españolas",
-    image: { img1: Navidad37 },
+    image: { img1: Navidad37, img2: Navidad37 },
   },
   {
     id: "24",
@@ -333,7 +333,7 @@ export const NavidadNiña = [
     price: 50000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18",
     description: "Enterizo, Balaca personalizado",
-    image: { img1: Navidad40 },
+    image: { img1: Navidad40, img2: Navidad40 },
   },
   {
     id: "26",
@@ -360,7 +360,7 @@ export const NavidadNiña = [
     price: 50000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18",
     description: "Enterizo, Balaca",
-    image: { img1: Navidad45 },
+    image: { img1: Navidad45, img2: Navidad45 },
   },
   {
     id: "29",
@@ -369,7 +369,7 @@ export const NavidadNiña = [
     price: 43000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18",
     description: "Enterizo",
-    image: { img1: Navidad46 },
+    image: { img1: Navidad46, img2: Navidad46 },
   },
   {
     id: "30",
@@ -378,7 +378,7 @@ export const NavidadNiña = [
     price: 43000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18",
     description: "Enterizo, Balaca dorada o Balaca (tu escoges)",
-    image: { img1: Navidad47 },
+    image: { img1: Navidad47, img2: Navidad47 },
   },
   {
     id: "31",
@@ -387,7 +387,7 @@ export const NavidadNiña = [
     price: 65000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18, 18-24",
     description: "Mameluco, Pantalón, Balaca personalizada",
-    image: { img1: Navidad48 },
+    image: { img1: Navidad48, img2: Navidad48 },
   },
   {
     id: "32",
@@ -396,7 +396,7 @@ export const NavidadNiña = [
     price: 70000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18, 18-24",
     description: "Mameluco, Pantalón, Gorro personalizado",
-    image: { img1: Navidad49 },
+    image: { img1: Navidad49, img2: Navidad49 },
   },
   {
     id: "33",
@@ -406,7 +406,7 @@ export const NavidadNiña = [
     sizes: "Niño: 0-3, 3-6, 6-9, 9-12, 12-18 y 18-24. Adulto: S, M, L, XL",
     description:
       "Set bebé (Mameluco, Pantalón y Gorro personalizado).Camiseta papá y mamá",
-    image: { img1: Navidad50 },
+    image: { img1: Navidad50, img2: Navidad50 },
   },
   {
     id: "34",
@@ -416,7 +416,7 @@ export const NavidadNiña = [
     sizes: "Niño: 0-3, 3-6, 6-9, 9-12, 12-18 y 18-24. Adulto: S, M, L, XL",
     description:
       "Set bebé (Mameluco, Pantalón y Gorro personalizado), Camiseta papá y mamá.",
-    image: { img1: Navidad51 },
+    image: { img1: Navidad51, img2: Navidad51 },
   },
   {
     id: "35",
@@ -425,7 +425,7 @@ export const NavidadNiña = [
     price: 70000,
     sizes: "Niño: 0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description: "Mameluco, Pantalón y Gorro personalizado",
-    image: { img1: Navidad52 },
+    image: { img1: Navidad52, img2: Navidad52 },
   },
   {
     id: "36",
@@ -435,7 +435,7 @@ export const NavidadNiña = [
     sizes: "Niño: 0-3, 3-6, 6-9, 9-12, 12-18 y 18-24. Adulto: S, M, L, XL",
     description:
       "Set bebé (Mameluco, Pantalón con tutú y Gorro personalizado).  Camiseta papá y mamá con gorros personalizados.",
-    image: { img1: Navidad53 },
+    image: { img1: Navidad53, img2: Navidad53 },
   },
   {
     id: "37",
@@ -445,7 +445,7 @@ export const NavidadNiña = [
     sizes:
       "Bebé Mameluco: 0-3, 3-6, 6-9, 9-12, 12-18 y 18-24. Niño: 2-4, 4-6, 6-8, 10-12 y 12-16. Adulto: S, M, L, XL",
     description: "Set bebé (Mameluco o camiseta). 2 camisetas",
-    image: { img1: Navidad54 },
+    image: { img1: Navidad54, img2: Navidad54 },
   },
   {
     id: "38",
@@ -455,7 +455,7 @@ export const NavidadNiña = [
     sizes: "Niño: 0-3, 3-6, 6-9, 9-12, 12-18. Adulto: S, M, L, XL",
     description:
       "Set bebé (Enterizo y gorro personalizado). Camiseta papá y mamá",
-    image: { img1: Navidad55 },
+    image: { img1: Navidad55, img2: Navidad55 },
   },
   {
     id: "39",

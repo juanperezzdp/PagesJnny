@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { BsWhatsapp } from "react-icons/bs";
+import {
+  BsFillArrowLeftCircleFill,
+  BsFillArrowRightCircleFill,
+} from "react-icons/bs";
 
 const DetailProducts = () => {
   const location = useLocation();
@@ -23,16 +27,69 @@ const DetailProducts = () => {
     }
   };
 
+  const [currentIndex, setCurrentIndex] = useState(1);
+  const images = [detailData.image.img1, detailData.image.img2];
+
+  const previous = () => {
+    if (currentIndex > 1) {
+      setCurrentIndex(currentIndex - 1);
+    }
+  };
+
+  const forward = () => {
+    if (currentIndex < images.length) {
+      setCurrentIndex(currentIndex + 1);
+    }
+  };
+  console.log(detailData);
+
   return (
     <>
+      <main className="grid  mb-4 w-full">
+        <div className="relative mx-auto max-w-2xl ">
+          <div className="absolute right-5 top-5 z-10 rounded-3xl bg-gray-600 px-2 text-center text-sm text-white">
+            <span>{currentIndex}</span>/<span>{images.length}</span>
+          </div>
+
+          <button
+            onClick={previous}
+            className="absolute left-1 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center"
+          >
+            <BsFillArrowLeftCircleFill className="text-3xl hover:text-violet-500 text-violet-800" />
+          </button>
+
+          <button
+            onClick={forward}
+            className="absolute right-1 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full"
+          >
+            <BsFillArrowRightCircleFill className="text-3xl hover:text-violet-500 text-violet-800" />
+          </button>
+
+          <div
+            className="relative rounded-xl h-80 flex justify-center"
+            style={{ width: "20rem" }}
+          >
+            {images.map((image, index) => (
+              <div
+                key={index}
+                style={{
+                  display:
+                    images.length === 1 || currentIndex === index + 1
+                      ? "block"
+                      : "none",
+                }}
+                className="absolute top-4 rounded-xl"
+              >
+                <img src={image} alt={``} className="rounded-xl  h-80" />
+              </div>
+            ))}
+          </div>
+        </div>
+      </main>
+
       <section className="flec flex-col items-center ">
         {detailData ? (
           <div className="p-4 flex flex-col items-center justify-center gap-4">
-            <img
-              className="w-96 rounded-2xl"
-              src={detailData.image.img1}
-              alt="Products"
-            />
             <h2 className="font-bold text-2xl ">{detailData.title}</h2>
             <div>
               <p className="text-xl mb-2">

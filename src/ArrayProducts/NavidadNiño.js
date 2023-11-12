@@ -20,7 +20,7 @@ export const NavidadNiño = [
     price: 70000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description: "Mameluco,Pantalón, Gorro personalizado",
-    image: { img1: Navidad1 },
+    image: { img1: Navidad1, img2: Navidad1 },
   },
   {
     id: "02",
@@ -29,7 +29,7 @@ export const NavidadNiño = [
     price: 70000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description: "Mameluco,Pantalón, Gorro personalizado",
-    image: { img1: Navidad2 },
+    image: { img1: Navidad2, img2: Navidad2 },
   },
   {
     id: "03",
@@ -47,7 +47,7 @@ export const NavidadNiño = [
     price: 70000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description: "Mameluco,Pantalón, Gorro personalizado",
-    image: { img1: Navidad5 },
+    image: { img1: Navidad5, img2: Navidad5 },
   },
   {
     id: "05",
@@ -56,7 +56,7 @@ export const NavidadNiño = [
     price: 70000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description: "Mameluco,Pantalón, Gorro personalizado",
-    image: { img1: Navidad6 },
+    image: { img1: Navidad6, img2: Navidad6 },
   },
   {
     id: "06",

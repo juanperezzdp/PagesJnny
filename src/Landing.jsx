@@ -33,7 +33,7 @@ const Landing = () => {
           <div className="flex flex-col items-center gap-8 mt-8">
             <button
               onClick={() => {
-                navigate("/catalogue");
+                navigate("/cataloguegirl");
               }}
               className="w-full h-8 flex justify-center items-center  hover:bg-violet-500 bg-violet-800 rounded-3xl text-white"
             >
@@ -44,7 +44,7 @@ const Landing = () => {
             </button>
             <button
               onClick={() => {
-                navigate("/");
+                navigate("/catalogueboy");
               }}
               className="w-full h-8 flex justify-center items-center  hover:bg-violet-500 bg-violet-800 rounded-3xl text-white"
             >

@@ -1,7 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 import Landing from "./Landing";
-import Catalogue from "./Catalogue";
 import DetailProducts from "./DetailProducts";
+import CatalogueGirl from "./CatalogueGirl";
+import CatalogueBoy from "./CatalogueBoy";
 
 export const router = createBrowserRouter([
   {
@@ -9,8 +10,12 @@ export const router = createBrowserRouter([
     element: <Landing />,
   },
   {
-    path: "/catalogue",
-    element: <Catalogue />,
+    path: "/cataloguegirl",
+    element: <CatalogueGirl />,
+  },
+  {
+    path: "/catalogueboy",
+    element: <CatalogueBoy />,
   },
   {
     path: "/detailsproducts/:id",

@@ -6,7 +6,6 @@ const DetailProducts = () => {
   const location = useLocation();
   const detailData = location.state && location.state.detailData;
 
-  console.log(detailData);
   const handleReserveClick = () => {
     if (detailData) {
       const message = `Hola👋🏻 un gusto en saludarte, estoy interesada en saber más sobre este producto:Título: ${encodeURIComponent(

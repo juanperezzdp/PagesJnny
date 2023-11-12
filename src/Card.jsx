@@ -1,33 +1,58 @@
-import React from "react";
+import { useNavigate } from "react-router-dom";
 
-const Card = () => {
-  const cardStyle = {
-    backgroundImage:
-      "url(https://images.unsplash.com/photo-1521903062400-b80f2cb8cb9d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80)",
+const Card = ({ props }) => {
+  const navigate = useNavigate();
+
+  const handleDataClick = (item) => {
+    navigate(`/detailsproducts/${item.id}`, {
+      state: { detailData: item },
+    });
   };
 
   return (
-    <div className="flex flex-col items-center justify-center w-full max-w-sm mx-auto">
-      <div
-        className="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md"
-        style={cardStyle}
-      ></div>
+    <>
+      <div className="bg-violet-50 w-full h-full flex flex-wrap justify-around pt-4 gap-2">
+        {props?.map((data, index) => (
+          <div
+            key={index}
+            className="relative flex h-90 w-full max-w-[11rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-2xl"
+          >
+            <div className="relative mx-2 mt-2 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
+              <img className="h-52" src={data.image.img1} alt="img" />
 
-      <div className="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
-        <h3 className="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">
-          Nike Revolt
-        </h3>
-
-        <div className="flex items-center justify-between px-3 py-2 bg-gray-200 dark:bg-gray-700">
-          <span className="font-bold text-gray-800 dark:text-gray-200">
-            $129
-          </span>
-          <button className="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-300 transform bg-gray-800 rounded hover:bg-gray-700 dark:hover-bg-gray-600 focus:bg-gray-700 dark:focus-bg-gray-600 focus:outline-none">
-            Add to cart
-          </button>
-        </div>
+              <button
+                className="!absolute top-4 right-4 h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-full text-center align-middle font-sans text-xs font-medium uppercase text-red-500 transition-all hover:bg-red-500/10 active:bg-red-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                type="button"
+                data-ripple-dark="true"
+                onClick={() => handleDataClick(data)}
+              >
+                <span className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 transform"></span>
+              </button>
+            </div>
+            <div className="p-2">
+              <div className="mb-3 h-10">
+                <h5 className="block font-sans text-base font-medium leading-snug tracking-normal text-blue-gray-900 antialiased">
+                  {data.title}
+                </h5>
+              </div>
+              <p className="flex text-green-500  text-xl items-center gap-1.5 font-sans font-bold leading-relaxed text-blue-gray-900 antialiased">
+                ${data.price.toLocaleString("es-US")}
+              </p>
+            </div>
+            <div className=" p-2 pt-0">
+              <button
+                className="block w-full select-none rounded-lg hover:bg-violet-500 bg-violet-800 py-2 px-7 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-violet-800/20 transition-all hover:shadow-lg hover:shadow-violet-800/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                type="button"
+                data-ripple-light="true"
+                onClick={() => handleDataClick(data)}
+              >
+                Ver detalles y reservar
+              </button>
+            </div>
+          </div>
+        ))}
       </div>
-    </div>
+    </>
   );
 };
 

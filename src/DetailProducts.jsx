@@ -57,6 +57,7 @@ const DetailProducts = () => {
             </div>
 
             <button
+              target="_blank"
               className=" flex items-center justify-center  mt-4 w-full select-none rounded-lg hover:bg-violet-500 bg-violet-800 py-3.5 px-7 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-violet-800/20 transition-all hover:shadow-lg hover:shadow-violet-800/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
               onClick={handleReserveClick}
             >

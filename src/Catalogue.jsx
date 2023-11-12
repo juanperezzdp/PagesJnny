@@ -1,4 +1,4 @@
-import { navidad } from "./ArrayProducts/Navidad";
+import { NavidadNiña } from "./ArrayProducts/NavidadNiña";
 import { useNavigate } from "react-router-dom";
 
 const Catalogue = () => {
@@ -13,7 +13,7 @@ const Catalogue = () => {
   return (
     <>
       <div className="bg-violet-50 w-full h-full flex flex-wrap justify-around pt-4 gap-2">
-        {navidad.map((data, index) => (
+        {NavidadNiña.map((data, index) => (
           <div
             key={index}
             className="relative flex h-90 w-full max-w-[11rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-2xl"

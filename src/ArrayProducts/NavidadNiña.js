@@ -102,7 +102,7 @@ export const NavidadNiña = [
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description:
       "Mameluco, Tutú con copitos estampados, Balaca personalizada, Medias españolas",
-    image: { img1: Navidad1, img2: Navidad2 },
+    image: { img1: Navidad2, img2: Navidad1 },
   },
   {
     id: "02",
@@ -112,7 +112,7 @@ export const NavidadNiña = [
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description:
       "Mameluco, Tutú con copitos estampados, Balaca personalizada, Medias españolas",
-    image: { img1: Navidad3, img2: Navidad4 },
+    image: { img1: Navidad4, img2: Navidad3 },
   },
   {
     id: "03",
@@ -122,7 +122,7 @@ export const NavidadNiña = [
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description:
       "Mameluco, Tutú con copitos estampados, Balaca personalizada, Medias españolas",
-    image: { img1: Navidad5, img2: Navidad6 },
+    image: { img1: Navidad6, img2: Navidad5 },
   },
   {
     id: "04",
@@ -132,7 +132,7 @@ export const NavidadNiña = [
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description:
       "Mameluco, Tutú con copitos estampados, Balaca personalizada, Medias españolas",
-    image: { img1: Navidad7, img2: Navidad8 },
+    image: { img1: Navidad8, img2: Navidad7 },
   },
   {
     id: "05",
@@ -162,7 +162,7 @@ export const NavidadNiña = [
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description:
       "Mameluco, Tutú con copos, Gorro personalizada, Medias españolas",
-    image: { img1: Navidad12, img2: Navidad13 },
+    image: { img1: Navidad13, img2: Navidad12 },
   },
   {
     id: "08",
@@ -182,7 +182,7 @@ export const NavidadNiña = [
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description:
       "Mameluco personalizado, Tutú, Gorro personalizada, Medias españolas",
-    image: { img1: Navidad15, img2: Navidad16 },
+    image: { img1: Navidad16, img2: Navidad15 },
   },
   {
     id: "10",
@@ -192,7 +192,7 @@ export const NavidadNiña = [
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description: `Mameluco personalizado, Tutú de cintas con copitos, Balaca personalizada, Medias españolas, 
       (Zapatos se vende por separado solo disponible talla 22 en 45.000)`,
-    image: { img1: Navidad17, img2: Navidad18 },
+    image: { img1: Navidad18, img2: Navidad17 },
   },
   {
     id: "11",
@@ -211,7 +211,7 @@ export const NavidadNiña = [
     price: 80000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description: "Mameluco personalizado, Tutú, Balaca, Medias españolas",
-    image: { img1: Navidad20, img2: Navidad21 },
+    image: { img1: Navidad21, img2: Navidad20 },
   },
   {
     id: "13",
@@ -221,7 +221,7 @@ export const NavidadNiña = [
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description:
       "Mameluco personalizado, Tutú con copitos estampados, Balaca, Medias españolas",
-    image: { img1: Navidad22, img2: Navidad23 },
+    image: { img1: Navidad23, img2: Navidad22 },
   },
   {
     id: "14",
@@ -231,7 +231,7 @@ export const NavidadNiña = [
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description:
       "Mameluco, Tutú con copitos estampados, Balaca personalizada, Medias españolas",
-    image: { img1: Navidad24, img2: Navidad25 },
+    image: { img1: Navidad25, img2: Navidad24 },
   },
   {
     id: "15",
@@ -241,7 +241,7 @@ export const NavidadNiña = [
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description:
       "Mameluco, Tutú con copitos estampados, Balaca personalizada, Medias españolas",
-    image: { img1: Navidad24, img2: Navidad25 },
+    image: { img1: Navidad25, img2: Navidad24 },
   },
   {
     id: "16",
@@ -251,7 +251,7 @@ export const NavidadNiña = [
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description:
       "Mameluco, Tutú con copitos estampados, Gorro, Medias españolas",
-    image: { img1: Navidad26, img2: Navidad27 },
+    image: { img1: Navidad27, img2: Navidad26 },
   },
   {
     id: "17",
@@ -261,7 +261,7 @@ export const NavidadNiña = [
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description:
       "Mameluco, Tutú con copitos estampados, Balaca, Medias españolas",
-    image: { img1: Navidad28, img2: Navidad29 },
+    image: { img1: Navidad29, img2: Navidad28 },
   },
   {
     id: "18",
@@ -279,7 +279,7 @@ export const NavidadNiña = [
     price: 60000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description: "Mameluco, Balaca dorada, Medias españolas",
-    image: { img1: Navidad31, img2: Navidad32 },
+    image: { img1: Navidad32, img2: Navidad31 },
   },
   {
     id: "20",
@@ -306,7 +306,7 @@ export const NavidadNiña = [
     price: 60000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description: "Mameluco, Gorro personalizado, Medias españolas",
-    image: { img1: Navidad35, img2: Navidad36 },
+    image: { img1: Navidad36, img2: Navidad35 },
   },
   {
     id: "23",
@@ -324,7 +324,7 @@ export const NavidadNiña = [
     price: 50000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description: "Enterizo, Gorro personalizado",
-    image: { img1: Navidad38, img: Navidad39 },
+    image: { img1: Navidad39, img: Navidad38 },
   },
   {
     id: "25",
@@ -342,7 +342,7 @@ export const NavidadNiña = [
     price: 45000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18",
     description: "Enterizo, Balaca  ",
-    image: { img1: Navidad41, img: Navidad42 },
+    image: { img1: Navidad42, img: Navidad41 },
   },
   {
     id: "27",
@@ -351,7 +351,7 @@ export const NavidadNiña = [
     price: 50000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18",
     description: "Enterizo, Balaca dorada o Balaca (tu escoges)",
-    image: { img1: Navidad43, img: Navidad44 },
+    image: { img1: Navidad44, img: Navidad43 },
   },
   {
     id: "28",
@@ -466,6 +466,6 @@ export const NavidadNiña = [
       "Bebé: 0-3, 3-6, 6-9, 9-12, 12-18 y 18-24. Niño: 2-4, 4-6, 6-8, 10-12 y 12-16. Adulto: S, M, L, XL",
     description:
       "Set bebé: vestido, Balaca personalizada y medias españolas (75.000$). Camiseta (35.000$)",
-    image: { img1: Navidad56, img2: Navidad57 },
+    image: { img1: Navidad57, img2: Navidad56 },
   },
 ];

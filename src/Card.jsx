@@ -18,7 +18,7 @@ const Card = ({ props }) => {
             className="relative flex h-90 w-full max-w-[11rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-2xl"
           >
             <div className="relative mx-2 mt-2 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
-              <img className="h-52" src={data.image.img1} alt="img" />
+              <img className="h-52 w-full" src={data.image.img1} alt="img" />
 
               <button
                 className="!absolute top-4 right-4 h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-full text-center align-middle font-sans text-xs font-medium uppercase text-red-500 transition-all hover:bg-red-500/10 active:bg-red-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"

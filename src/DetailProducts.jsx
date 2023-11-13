@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { BsWhatsapp } from "react-icons/bs";
-import {
-  BsFillArrowLeftCircleFill,
-  BsFillArrowRightCircleFill,
-} from "react-icons/bs";
+import { IoIosArrowDropleft, IoIosArrowDropright } from "react-icons/io";
 
 const DetailProducts = () => {
   const location = useLocation();
@@ -44,8 +41,8 @@ const DetailProducts = () => {
 
   return (
     <>
-      <main className="grid  mb-4 w-full">
-        <div className="relative mx-auto max-w-2xl ">
+      <main className="grid  mb-4 w-full ">
+        <div className="relative mx-auto max-w-5xl ">
           <div className="absolute right-5 top-5 z-10 rounded-3xl bg-gray-600 px-2 text-center text-sm text-white">
             <span>{currentIndex}</span>/<span>{images.length}</span>
           </div>
@@ -54,18 +51,18 @@ const DetailProducts = () => {
             onClick={previous}
             className="absolute left-1 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center"
           >
-            <BsFillArrowLeftCircleFill className="text-3xl hover:text-violet-500 text-violet-800" />
+            <IoIosArrowDropleft className="text-3xl hover:text-violet-500 text-violet-800" />
           </button>
 
           <button
             onClick={forward}
             className="absolute right-1 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full"
           >
-            <BsFillArrowRightCircleFill className="text-3xl hover:text-violet-500 text-violet-800" />
+            <IoIosArrowDropright className="text-3xl hover:text-violet-500 text-violet-800" />
           </button>
 
           <div
-            className="relative overflow-hidden rounded-xl h-80 flex justify-center items-center"
+            className="relative overflow-hidden rounded-xl h-96 flex justify-center items-center"
             style={{ width: "20rem" }}
           >
             {images.map((image, index) => (

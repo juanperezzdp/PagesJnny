@@ -19,7 +19,7 @@ const DetailProducts = () => {
       %0ADescripción: ${encodeURIComponent(detailData.description)}
       %0APrecio: ${encodeURIComponent(detailData.price)}`;
 
-      const imageUrl = `https://jazzy-heliotrope-5a99dd.netlify.app${detailData.image.img1}`;
+      const imageUrl = `https://darling-melomakarona-61505e.netlify.app${detailData.image.img1}`;
 
       const whatsappUrl = `http://api.whatsapp.com/send?phone=573222935748&text=${message}%0A${imageUrl}`;
 
@@ -41,7 +41,6 @@ const DetailProducts = () => {
       setCurrentIndex(currentIndex + 1);
     }
   };
-  console.log(detailData);
 
   return (
     <>
@@ -66,7 +65,7 @@ const DetailProducts = () => {
           </button>
 
           <div
-            className="relative rounded-xl h-80 flex justify-center"
+            className="relative overflow-hidden rounded-xl h-80 flex justify-center items-center"
             style={{ width: "20rem" }}
           >
             {images.map((image, index) => (
@@ -80,7 +79,7 @@ const DetailProducts = () => {
                 }}
                 className="absolute top-4 rounded-xl"
               >
-                <img src={image} alt={``} className="rounded-xl  h-80" />
+                <img src={image} alt={``} className="rounded-xl w-96 h-96" />
               </div>
             ))}
           </div>

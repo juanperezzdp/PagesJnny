@@ -93,6 +93,28 @@ import Navidad55 from "../img/navidad/NavidadRefFME001.jpeg";
 import Navidad56 from "../img/navidad/NavidadRefFM003.jpeg";
 import Navidad57 from "../img/navidad/NavidadReffFM003.jpeg";
 
+import Navidad58 from "../img/navidad/NavidadRefVAT001.jpeg";
+import Navidad59 from "../img/navidad/NavidadReffVAT001.jpeg";
+
+import Navidad60 from "../img/navidad/NavidadRefVA001.jpeg";
+
+import Navidad61 from "../img/navidad/NavidadRefFT003.jpeg";
+import Navidad62 from "../img/navidad/NavidadReffFT003.jpeg";
+
+import Navidad63 from "../img/navidad/NavidadRefFT002.jpeg";
+import Navidad64 from "../img/navidad/NavidadReffFT002.jpeg";
+
+import Navidad65 from "../img/navidad/NavidadRefA003.jpeg";
+
+import Navidad66 from "../img/navidad/NavidadRefA002.jpeg";
+
+import Navidad67 from "../img/navidad/NavidadRefVS001.jpeg";
+import Navidad68 from "../img/navidad/NavidadReffVS001.jpeg";
+
+import Navidad69 from "../img/navidad/NavidadRefFT001.jpeg";
+
+import Navidad70 from "../img/navidad/NavidadRefA001.jpeg";
+
 export const NavidadNiña = [
   {
     id: "01",
@@ -439,7 +461,7 @@ export const NavidadNiña = [
   },
   {
     id: "37",
-    title: "Set familiar santa 🎅🏻",
+    title: "Set familiar santa🎅🏻",
     ref: "FS002",
     price: 100000,
     sizes:
@@ -449,7 +471,7 @@ export const NavidadNiña = [
   },
   {
     id: "38",
-    title: "Set familiar enterizo 🎅🏻",
+    title: "Set familiar enterizo🎅🏻",
     ref: "FME001",
     price: 110000,
     sizes: "Niño: 0-3, 3-6, 6-9, 9-12, 12-18. Adulto: S, M, L, XL",
@@ -459,7 +481,7 @@ export const NavidadNiña = [
   },
   {
     id: "39",
-    title: "Set familiar 🎅🏻",
+    title: "Set familiar🎅🏻",
     ref: "FM003",
     price: 110000,
     sizes:
@@ -467,5 +489,89 @@ export const NavidadNiña = [
     description:
       "Set bebé: vestido, Balaca personalizada y medias españolas (75.000$). Camiseta (35.000$)",
     image: { img1: Navidad57, img2: Navidad56 },
+  },
+  {
+    id: "40",
+    title: "Vestido año nuevo con tutú🎅🏻",
+    ref: "VAT001",
+    price: 75000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18, 18-24",
+    description: "Mameluco con tutú, Medias españolas negras, Balaca",
+    image: { img1: Navidad58, img2: Navidad59 },
+  },
+  {
+    id: "41",
+    title: "Vestido año nuevo🎅🏻",
+    ref: "VAT001",
+    price: 75000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18, 18-24",
+    description: "Mameluco con tutú, Medias españolas negras, Balaca",
+    image: { img1: Navidad60, img2: Navidad60 },
+  },
+  {
+    id: "42",
+    title: "Set falda con tirantes🎅🏻",
+    ref: "FT003",
+    price: 85000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18, 18-24",
+    description:
+      "Mameluco con tutú, falta con tirantes, Medias españolas rojas, Balaca",
+    image: { img1: Navidad61, img2: Navidad62 },
+  },
+  {
+    id: "43",
+    title: "Set falda con tirantes🎅🏻",
+    ref: "FT002",
+    price: 85000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description:
+      "Mameluco con tutú, falta con tirantes, Medias españolas negras, Balaca",
+    image: { img1: Navidad64, img2: Navidad63 },
+  },
+  {
+    id: "44",
+    title: "Asoleador santa verde🎅🏻",
+    ref: "A003",
+    price: 70000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Asoleador, Medias españolas, Balaca",
+    image: { img1: Navidad65, img2: Navidad65 },
+  },
+  {
+    id: "45",
+    title: "Asoleador santa rojo🎅🏻",
+    ref: "A002",
+    price: 70000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Asoleador, Medias españolas, Balaca",
+    image: { img1: Navidad66, img2: Navidad66 },
+  },
+  {
+    id: "46",
+    title: "Vestido santa🎅🏻",
+    ref: "VS001",
+    price: 80000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Vestido, Medias españolas, Balaca personalizada, Cucos",
+    image: { img1: Navidad67, img2: Navidad68 },
+  },
+  {
+    id: "47",
+    title: "Set falda con tirantes🎅🏻",
+    ref: "FT001",
+    price: 80000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description:
+      "Mameluco, Falta con tirantes, Medias españolas, Gorros personalizado",
+    image: { img1: Navidad69, img2: Navidad69 },
+  },
+  {
+    id: "48",
+    title: "Asoleador Merry Christmas🎅🏻",
+    ref: "A001",
+    price: 70000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Asoleador, Medias españolas, Balaca",
+    image: { img1: Navidad70, img2: Navidad70 },
   },
 ];

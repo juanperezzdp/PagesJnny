@@ -49,21 +49,21 @@ const DetailProducts = () => {
 
           <button
             onClick={previous}
-            className="absolute left-1 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center"
+            className="bg-white rounded-full  absolute left-1 top-1/2 z-10 flex -translate-y-1/2 items-center justify-center"
           >
-            <IoIosArrowDropleft className="text-3xl hover:text-violet-500 text-violet-800" />
+            <IoIosArrowDropleft className="rounded-full text-3xl hover:text-violet-500 text-violet-800" />
           </button>
 
           <button
             onClick={forward}
-            className="absolute right-1 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full"
+            className="bg-white absolute right-1 top-1/2 z-10 flex  -translate-y-1/2 items-center justify-center rounded-full"
           >
-            <IoIosArrowDropright className="text-3xl hover:text-violet-500 text-violet-800" />
+            <IoIosArrowDropright className="rounded-full text-3xl hover:text-violet-500 text-violet-800" />
           </button>
 
           <div
             className="relative overflow-hidden rounded-xl h-96 flex justify-center items-center"
-            style={{ width: "20rem" }}
+            style={{ width: "21rem" }}
           >
             {images.map((image, index) => (
               <div
@@ -76,7 +76,7 @@ const DetailProducts = () => {
                 }}
                 className="absolute top-4 rounded-xl"
               >
-                <img src={image} alt={``} className="rounded-xl w-96 h-96" />
+                <img src={image} alt="" className="rounded-xl w-96 h-96" />
               </div>
             ))}
           </div>

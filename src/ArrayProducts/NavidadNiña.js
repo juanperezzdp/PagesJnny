@@ -559,7 +559,7 @@ export const NavidadNiña = [
     id: "47",
     title: "Set falda con tirantes🎅🏻",
     ref: "FT001",
-    price: 80000,
+    price: 85000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
     description:
       "Mameluco, Falta con tirantes, Medias españolas, Gorros personalizado",

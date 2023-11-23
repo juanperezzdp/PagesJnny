@@ -118,7 +118,7 @@ import Navidad70 from "../img/navidad/NavidadRefA001.jpeg";
 export const NavidadNiña = [
   {
     id: "01",
-    title: "Set Navidad Reno 🎅🏻",
+    title: "Set Navidad Reno🎅🏻",
     ref: "NR01",
     price: 75000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
@@ -128,7 +128,7 @@ export const NavidadNiña = [
   },
   {
     id: "02",
-    title: "Set Navidad pingüino 🎅🏻",
+    title: "Set Navidad pingüino🎅🏻",
     ref: "NP02",
     price: 75000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
@@ -138,7 +138,7 @@ export const NavidadNiña = [
   },
   {
     id: "03",
-    title: "Set Navidad pingüino blanco 🎅🏻",
+    title: "Set Navidad pingüino blanco🎅🏻",
     ref: "NPB03",
     price: 75000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
@@ -148,7 +148,7 @@ export const NavidadNiña = [
   },
   {
     id: "04",
-    title: "Set Navidad blanco 🎅🏻",
+    title: "Set Navidad blanco🎅🏻",
     ref: "NB04",
     price: 75000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
@@ -158,7 +158,7 @@ export const NavidadNiña = [
   },
   {
     id: "05",
-    title: "Set Navidad reno 🎅🏻",
+    title: "Set Navidad reno🎅🏻",
     ref: "NR03",
     price: 75000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
@@ -168,7 +168,7 @@ export const NavidadNiña = [
   },
   {
     id: "06",
-    title: "Set Navidad Oso 🎅🏻",
+    title: "Set Navidad Oso🎅🏻",
     ref: "NR04",
     price: 75000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
@@ -178,7 +178,7 @@ export const NavidadNiña = [
   },
   {
     id: "07",
-    title: "Set Navidad blanco con reno 🎅🏻",
+    title: "Set Navidad blanco con reno🎅🏻",
     ref: "NB05",
     price: 75000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
@@ -188,7 +188,7 @@ export const NavidadNiña = [
   },
   {
     id: "08",
-    title: "Set santa con gorro 🎅🏻",
+    title: "Set santa con gorro🎅🏻",
     ref: "NR08",
     price: 80000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
@@ -198,7 +198,7 @@ export const NavidadNiña = [
   },
   {
     id: "09",
-    title: "Set Navidad Minnie con gorro 🎅🏻",
+    title: "Set Navidad Minnie con gorro🎅🏻",
     ref: "NR010",
     price: 80000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
@@ -208,9 +208,9 @@ export const NavidadNiña = [
   },
   {
     id: "10",
-    title: "Set Navidad con tutú de cintas 🎅🏻",
+    title: "Set Navidad con tutú de cintas🎅🏻",
     ref: "NTC001",
-    price: 80000,
+    price: 85000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description: `Mameluco personalizado, Tutú de cintas con copitos, Balaca personalizada, Medias españolas, 
       (Zapatos se vende por separado solo disponible talla 22 en 45.000)`,
@@ -218,9 +218,9 @@ export const NavidadNiña = [
   },
   {
     id: "11",
-    title: "Set Navidad con tutú de cintas reno 🎅🏻",
+    title: "Set Navidad con tutú de cintas reno🎅🏻",
     ref: "NTC002",
-    price: 80000,
+    price: 85000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description:
       "Mameluco personalizado, Tutú de cintas con copitos, Balaca, Medias españolas",
@@ -228,18 +228,18 @@ export const NavidadNiña = [
   },
   {
     id: "12",
-    title: "Set Navidad con tutú de cintas reno 🎅🏻",
+    title: "Set Navidad con tutú de cintas reno🎅🏻",
     ref: "NTC003",
-    price: 80000,
+    price: 85000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description: "Mameluco personalizado, Tutú, Balaca, Medias españolas",
     image: { img1: Navidad21, img2: Navidad20 },
   },
   {
     id: "13",
-    title: "Set Navidad con tutú de cintas reno 🎅🏻",
+    title: "Set Navidad con tutú de cintas reno🎅🏻",
     ref: "NTC004",
-    price: 80000,
+    price: 85000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description:
       "Mameluco personalizado, Tutú con copitos estampados, Balaca, Medias españolas",
@@ -247,9 +247,9 @@ export const NavidadNiña = [
   },
   {
     id: "14",
-    title: "Set Navidad con tutú de cintas, árbol 🎅🏻",
+    title: "Set Navidad con tutú de cintas, árbol🎅🏻",
     ref: "NTC005",
-    price: 80000,
+    price: 85000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description:
       "Mameluco, Tutú con copitos estampados, Balaca personalizada, Medias españolas",
@@ -257,9 +257,9 @@ export const NavidadNiña = [
   },
   {
     id: "15",
-    title: "Set Navidad con tutú de cintas, árbol 🎅🏻",
+    title: "Set Navidad con tutú de cintas, árbol🎅🏻",
     ref: "NTC005",
-    price: 80000,
+    price: 85000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description:
       "Mameluco, Tutú con copitos estampados, Balaca personalizada, Medias españolas",
@@ -267,9 +267,9 @@ export const NavidadNiña = [
   },
   {
     id: "16",
-    title: "Set Navidad con tutú de cintas minnie 🎅🏻",
+    title: "Set Navidad con tutú de cintas minnie🎅🏻",
     ref: "NTC006",
-    price: 80000,
+    price: 85000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description:
       "Mameluco, Tutú con copitos estampados, Gorro, Medias españolas",
@@ -277,9 +277,9 @@ export const NavidadNiña = [
   },
   {
     id: "17",
-    title: "Set Navidad con tutú de cintas silueta 🎅🏻",
+    title: "Set Navidad con tutú de cintas silueta🎅🏻",
     ref: "NTC007",
-    price: 80000,
+    price: 85000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description:
       "Mameluco, Tutú con copitos estampados, Balaca, Medias españolas",
@@ -287,7 +287,7 @@ export const NavidadNiña = [
   },
   {
     id: "18",
-    title: "Set Navidad con tutú de cintas silueta 🎅🏻",
+    title: "Set Navidad con tutú de cintas silueta🎅🏻",
     ref: "TT01",
     price: 50000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
@@ -296,7 +296,7 @@ export const NavidadNiña = [
   },
   {
     id: "19",
-    title: "Set completo con medias 🎅🏻",
+    title: "Set completo con medias🎅🏻",
     ref: "CCM001",
     price: 60000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
@@ -305,7 +305,7 @@ export const NavidadNiña = [
   },
   {
     id: "20",
-    title: "Set completo con medias 🎅🏻",
+    title: "Set completo con medias🎅🏻",
     ref: "CCM002",
     price: 60000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
@@ -314,7 +314,7 @@ export const NavidadNiña = [
   },
   {
     id: "21",
-    title: "Set completo con medias y gorro 🎅🏻",
+    title: "Set completo con medias y gorro🎅🏻",
     ref: "CCM003",
     price: 60000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
@@ -323,7 +323,7 @@ export const NavidadNiña = [
   },
   {
     id: "22",
-    title: "Set completo con medias y gorro 🎅🏻",
+    title: "Set completo con medias y gorro🎅🏻",
     ref: "CCM003",
     price: 60000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
@@ -332,7 +332,7 @@ export const NavidadNiña = [
   },
   {
     id: "23",
-    title: "Set completo con medias y gorro 🎅🏻",
+    title: "Set completo con medias y gorro🎅🏻",
     ref: "CCM005",
     price: 60000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
@@ -341,7 +341,7 @@ export const NavidadNiña = [
   },
   {
     id: "24",
-    title: "Enterizo Santa 🎅🏻",
+    title: "Enterizo Santa🎅🏻",
     ref: "ES001",
     price: 50000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
@@ -350,7 +350,7 @@ export const NavidadNiña = [
   },
   {
     id: "25",
-    title: "Enterizo Minnie 🎅🏻",
+    title: "Enterizo Minnie🎅🏻",
     ref: "EM002",
     price: 50000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18",
@@ -359,7 +359,7 @@ export const NavidadNiña = [
   },
   {
     id: "26",
-    title: "Enterizo 🎅🏻",
+    title: "Enterizo🎅🏻",
     ref: "E002",
     price: 45000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18",
@@ -368,7 +368,7 @@ export const NavidadNiña = [
   },
   {
     id: "27",
-    title: "Enterizo 🎅🏻",
+    title: "Enterizo🎅🏻",
     ref: "E003",
     price: 50000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18",
@@ -377,7 +377,7 @@ export const NavidadNiña = [
   },
   {
     id: "28",
-    title: "Enterizo Minnie blanco 🎅🏻",
+    title: "Enterizo Minnie blanco🎅🏻",
     ref: "EMM02",
     price: 50000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18",
@@ -386,7 +386,7 @@ export const NavidadNiña = [
   },
   {
     id: "29",
-    title: "Enterizo 🎅🏻",
+    title: "Enterizo🎅🏻",
     ref: "E004",
     price: 43000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18",
@@ -395,7 +395,7 @@ export const NavidadNiña = [
   },
   {
     id: "30",
-    title: "Enterizo 🎅🏻",
+    title: "Enterizo🎅🏻",
     ref: "E005",
     price: 43000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18",
@@ -404,7 +404,7 @@ export const NavidadNiña = [
   },
   {
     id: "31",
-    title: "Set Conjunto con Balaca 🎅🏻",
+    title: "Set Conjunto con Balaca🎅🏻",
     ref: "CB001",
     price: 65000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18, 18-24",
@@ -413,7 +413,7 @@ export const NavidadNiña = [
   },
   {
     id: "32",
-    title: "Set Conjunto con gorro 🎅🏻",
+    title: "Set Conjunto con gorro🎅🏻",
     ref: "CG001",
     price: 70000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18, 18-24",
@@ -422,7 +422,7 @@ export const NavidadNiña = [
   },
   {
     id: "33",
-    title: "Set familiar minnie y Mickey 🎅🏻",
+    title: "Set familiar minnie y Mickey🎅🏻",
     ref: "FMM001",
     price: 130000,
     sizes: "Niño: 0-3, 3-6, 6-9, 9-12, 12-18 y 18-24. Adulto: S, M, L, XL",
@@ -432,7 +432,7 @@ export const NavidadNiña = [
   },
   {
     id: "34",
-    title: "Set familiar reno 🎅🏻",
+    title: "Set familiar reno🎅🏻",
     ref: "FR002",
     price: 130000,
     sizes: "Niño: 0-3, 3-6, 6-9, 9-12, 12-18 y 18-24. Adulto: S, M, L, XL",
@@ -442,7 +442,7 @@ export const NavidadNiña = [
   },
   {
     id: "35",
-    title: "Set Conjunto con gorro 🎅🏻",
+    title: "Set Conjunto con gorro🎅🏻",
     ref: "CG002",
     price: 70000,
     sizes: "Niño: 0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
@@ -451,7 +451,7 @@ export const NavidadNiña = [
   },
   {
     id: "36",
-    title: "Set familiar santa 🎅🏻",
+    title: "Set familiar santa🎅🏻",
     ref: "FS001",
     price: 160000,
     sizes: "Niño: 0-3, 3-6, 6-9, 9-12, 12-18 y 18-24. Adulto: S, M, L, XL",

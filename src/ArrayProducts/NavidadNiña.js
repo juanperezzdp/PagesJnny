@@ -277,7 +277,7 @@ export const NavidadNiña = [
   },
   {
     id: "17",
-    title: "Set Navidad con tutú de cintas silueta🎅🏻",
+    title: "Set Navidad tutú de cintas silueta🎅🏻",
     ref: "NTC007",
     price: 85000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
@@ -287,7 +287,7 @@ export const NavidadNiña = [
   },
   {
     id: "18",
-    title: "Set Navidad con tutú de cintas silueta🎅🏻",
+    title: "Tutú de cintas silueta🎅🏻",
     ref: "TT01",
     price: 50000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",

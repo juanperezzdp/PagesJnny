@@ -115,6 +115,9 @@ import Navidad69 from "../img/navidad/NavidadRefFT001.jpeg";
 
 import Navidad70 from "../img/navidad/NavidadRefA001.jpeg";
 
+import Navidad71 from "../img/navidad/NavidadRefA0034.jpeg";
+import Navidad72 from "../img/navidad/NavidadReffA0034.jpeg";
+
 export const NavidadNiña = [
   {
     id: "01",
@@ -573,5 +576,14 @@ export const NavidadNiña = [
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
     description: "Asoleador, Medias españolas, Balaca",
     image: { img1: Navidad70, img2: Navidad70 },
+  },
+  {
+    id: "49",
+    title: "Asoleador santa🎅🏻",
+    ref: "A0034",
+    price: 77000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Asoleador, Medias españolas, Balaca",
+    image: { img1: Navidad71, img2: Navidad72 },
   },
 ];

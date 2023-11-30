@@ -581,7 +581,7 @@ export const NavidadNiña = [
     id: "49",
     title: "Asoleador santa🎅🏻",
     ref: "A0034",
-    price: 77000,
+    price: 80000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
     description: "Asoleador, Medias españolas, Balaca",
     image: { img1: Navidad71, img2: Navidad72 },

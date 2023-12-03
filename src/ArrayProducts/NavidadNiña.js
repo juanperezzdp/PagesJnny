@@ -118,6 +118,21 @@ import Navidad70 from "../img/navidad/NavidadRefA001.jpeg";
 import Navidad71 from "../img/navidad/NavidadRefA0034.jpeg";
 import Navidad72 from "../img/navidad/NavidadReffA0034.jpeg";
 
+import Navidad73 from "../img/navidad/NavidadRefNTC008.jpeg";
+import Navidad74 from "../img/navidad/NavidadReffNTC008.jpeg";
+
+import Navidad75 from "../img/navidad/NavidadRefFT004.jpeg";
+
+import Navidad76 from "../img/navidad/NavidadRefFT005.jpeg";
+
+import Navidad77 from "../img/navidad/NavidadRefECG002.jpeg";
+
+import Navidad78 from "../img/navidad/NavidadReffECG002.jpeg";
+
+import Navidad79 from "../img/navidad/NavidadRefECG02.jpeg";
+
+import Navidad80 from "../img/navidad/NavidadReffECG02.jpeg";
+
 export const NavidadNiña = [
   {
     id: "01",
@@ -585,5 +600,69 @@ export const NavidadNiña = [
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
     description: "Asoleador, Medias españolas, Balaca",
     image: { img1: Navidad71, img2: Navidad72 },
+  },
+  {
+    id: "50",
+    title: "Set Navidad con tutú de cintas verde🎅🏻",
+    ref: "NTC008",
+    price: 85000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description:
+      "Mameluco, Tutú con copitos estampados, Medias españolas, Balaca",
+    image: { img1: Navidad73, img2: Navidad74 },
+  },
+  {
+    id: "51",
+    title: "Set falda con tirantes🎅🏻",
+    ref: "FT004",
+    price: 85000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Mameluco, Falda con tirantes, Medias españolas, Balaca",
+    image: { img1: Navidad75, img2: Navidad75 },
+  },
+  {
+    id: "52",
+    title: "Set falda con tirantes🎅🏻",
+    ref: "FT005",
+    price: 85000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Mameluco, Falda con tirantes, Medias españolas, Balaca",
+    image: { img1: Navidad76, img2: Navidad76 },
+  },
+  {
+    id: "53",
+    title: "Enterizo con gorro 🎅🏻",
+    ref: "ECG2",
+    price: 57000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Enterizo, Gorro personalizado",
+    image: { img1: Navidad77, img2: Navidad77 },
+  },
+  {
+    id: "54",
+    title: "Enterizo con gorro 🎅🏻",
+    ref: "ECG02",
+    price: 57000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Enterizo, Gorro personalizado",
+    image: { img1: Navidad78, img2: Navidad78 },
+  },
+  {
+    id: "55",
+    title: "Enterizo con gorro 🎅🏻",
+    ref: "ECG002",
+    price: 57000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Enterizo, Gorro personalizado",
+    image: { img1: Navidad79, img2: Navidad79 },
+  },
+  {
+    id: "56",
+    title: "Enterizo con gorro 🎅🏻",
+    ref: "ECG0002",
+    price: 57000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Enterizo, Gorro personalizado",
+    image: { img1: Navidad80, img2: Navidad80 },
   },
 ];

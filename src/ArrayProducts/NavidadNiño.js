@@ -65,6 +65,13 @@ import Navidad34 from "../img/navidad-niño/NavidadRefE010.jpeg";
 import Navidad35 from "../img/navidad-niño/NavidadRefE009.jpeg";
 import Navidad36 from "../img/navidad-niño/NavidadReffE009.jpeg";
 
+import Navidad37 from "../img/navidad-niño/NavidadRefECG5.jpeg";
+
+import Navidad38 from "../img/navidad-niño/NavidadReffECG5.jpeg";
+
+import Navidad39 from "../img/navidad-niño/NavidadRefECG05.jpeg";
+import Navidad40 from "../img/navidad-niño/NavidadReffECG05.jpeg";
+
 export const NavidadNiño = [
   {
     id: "01",
@@ -232,7 +239,7 @@ export const NavidadNiño = [
     id: "18",
     title: "Enterizo Santa🎅🏻",
     ref: "ES006",
-    price: 50000,
+    price: 57000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18",
     description: "Enterizo, Gorro personalizado",
     image: { img1: Navidad23, img2: Navidad23 },
@@ -348,5 +355,41 @@ export const NavidadNiño = [
     sizes: "Niño: 0-3, 3-6, 6-9, 9-12, 12-18",
     description: "Enterizo, Gorro personalizado",
     image: { img1: Navidad35, img2: Navidad36 },
+  },
+  {
+    id: "31",
+    title: "Enterizo con gorro 🎅🏻",
+    ref: "ECG5",
+    price: 57000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18",
+    description: "Enterizo, Gorro personalizado",
+    image: { img1: Navidad37, img2: Navidad37 },
+  },
+  {
+    id: "56",
+    title: "Enterizo con gorro 🎅🏻",
+    ref: "ECG05",
+    price: 57000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18",
+    description: "Enterizo, Gorro personalizado",
+    image: { img1: Navidad38, img2: Navidad38 },
+  },
+  {
+    id: "56",
+    title: "Enterizo con gorro 🎅🏻",
+    ref: "ECG005",
+    price: 57000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18",
+    description: "Enterizo, Gorro personalizado",
+    image: { img1: Navidad39, img2: Navidad39 },
+  },
+  {
+    id: "56",
+    title: "Enterizo 🎅🏻",
+    ref: "ECG0005",
+    price: 57000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18",
+    description: "Enterizo",
+    image: { img1: Navidad40, img2: Navidad40 },
   },
 ];

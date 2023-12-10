@@ -133,6 +133,8 @@ import Navidad79 from "../img/navidad/NavidadRefECG02.jpeg";
 
 import Navidad80 from "../img/navidad/NavidadReffECG02.jpeg";
 
+import Navidad81 from "../img/navidad/NavidadRefVP001.jpeg";
+
 export const NavidadNiña = [
   {
     id: "01",
@@ -664,5 +666,14 @@ export const NavidadNiña = [
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
     description: "Enterizo, Gorro personalizado",
     image: { img1: Navidad80, img2: Navidad80 },
+  },
+  {
+    id: "57",
+    title: "Set vestido y pantalón🎅🏻",
+    ref: "VP001",
+    price: 87000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Vestido, Pantalón, Balaca",
+    image: { img1: Navidad81, img2: Navidad81 },
   },
 ];

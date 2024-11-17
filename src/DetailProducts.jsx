@@ -1,28 +1,28 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useLocation } from "react-router-dom";
-import { BsWhatsapp } from "react-icons/bs";
+// import { BsWhatsapp } from "react-icons/bs";
 import { IoIosArrowDropleft, IoIosArrowDropright } from "react-icons/io";
 
 const DetailProducts = () => {
   const location = useLocation();
   const detailData = location.state && location.state.detailData;
 
-  const handleReserveClick = () => {
-    if (detailData) {
-      const message = `Hola👋🏻 un gusto en saludarte, estoy interesada en saber más sobre este producto:Título: ${encodeURIComponent(
-        detailData.title
-      )}
-      %0ARef: ${encodeURIComponent(detailData.ref)}
-      %0ADescripción: ${encodeURIComponent(detailData.description)}
-      %0APrecio: ${encodeURIComponent(detailData.price)}`;
+  // const handleReserveClick = () => {
+  //   if (detailData) {
+  //     const message = `Hola👋🏻 un gusto en saludarte, estoy interesada en saber más sobre este producto:Título: ${encodeURIComponent(
+  //       detailData.title
+  //     )}
+  //     %0ARef: ${encodeURIComponent(detailData.ref)}
+  //     %0ADescripción: ${encodeURIComponent(detailData.description)}
+  //     %0APrecio: ${encodeURIComponent(detailData.price)}`;
 
-      const imageUrl = `https://darling-melomakarona-61505e.netlify.app${detailData.image.img1}`;
+  //     const imageUrl = `https://darling-melomakarona-61505e.netlify.app${detailData.image.img1}`;
 
-      const whatsappUrl = `http://api.whatsapp.com/send?phone=573222935748&text=${message}%0A${imageUrl}`;
+  //     const whatsappUrl = `http://api.whatsapp.com/send?phone=573222935748&text=${message}%0A${imageUrl}`;
 
-      window.location.href = whatsappUrl;
-    }
-  };
+  //     window.location.href = whatsappUrl;
+  //   }
+  // };
 
   const [currentIndex, setCurrentIndex] = useState(1);
   const images = [detailData.image.img1, detailData.image.img2];
@@ -108,14 +108,14 @@ const DetailProducts = () => {
               </p>
             </div>
 
-            <button
+            {/* <button
               target="_blank"
               className=" flex items-center justify-center  mt-4 w-full select-none rounded-lg hover:bg-violet-500 bg-violet-800 py-3.5 px-7 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-violet-800/20 transition-all hover:shadow-lg hover:shadow-violet-800/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
               onClick={handleReserveClick}
             >
               Reserver por Whatsapp
               <BsWhatsapp className="mr-2 text-xl ml-2" />
-            </button>
+            </button> */}
           </div>
         ) : (
           <p>No se encontraron detalles para este producto.</p>

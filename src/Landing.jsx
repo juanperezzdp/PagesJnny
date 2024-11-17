@@ -53,7 +53,7 @@ const Landing = () => {
                 <p>Catalogo Navidad de Niño</p>
               </div>
             </button>
-
+            {/* 
             <Link
               className="w-full h-8 flex items-center justify-center hover:bg-violet-500 bg-violet-800 rounded-3xl text-white"
               target="_blank"
@@ -63,7 +63,7 @@ const Landing = () => {
                 <BsWhatsapp className="mr-4 text-xl" />
                 <p>Whatsapp</p>
               </div>
-            </Link>
+            </Link> */}
 
             <Link
               className="w-full h-8 flex items-center justify-center hover:bg-violet-500 bg-violet-800 rounded-3xl text-white"

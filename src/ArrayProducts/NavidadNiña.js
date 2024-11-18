@@ -318,7 +318,7 @@ export const NavidadNiña = [
     id: "19",
     title: "Set completo con medias🎅🏻",
     ref: "CCM001",
-    price: 60000,
+    price: 45000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description: "Mameluco, Balaca dorada, Medias españolas",
     image: { img1: Navidad32, img2: Navidad31 },

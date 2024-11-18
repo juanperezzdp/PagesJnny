@@ -97,7 +97,9 @@ const DetailProducts = () => {
                 {detailData.description}
               </p>
               <p className="text-xl mb-2">
-                <span className="font-bold text-xl">Tallas: </span>
+                <span className="font-bold text-xl">
+                  Tallas por mes del niñ@:{" "}
+                </span>
                 {detailData.sizes}
               </p>
               <p className="text-5xl">

@@ -48,7 +48,7 @@ const Card = ({ props }) => {
                 data-ripple-light="true"
                 onClick={() => handleDataClick(data)}
               >
-                Ver detalles y reservar
+                Ver detalles
               </button>
             </div>
           </div>

@@ -38,7 +38,7 @@ const Card = ({ props }) => {
                 </h5>
               </div>
               <p className="flex text-green-500  text-xl items-center gap-1.5 font-sans font-bold leading-relaxed text-blue-gray-900 antialiased">
-                <span className="text-zinc-800 font-semibold">COP</span>
+                <span className="text-zinc-800 font-semibold">Precio:</span>
                 {data.price.toLocaleString("es-US")}{" "}
               </p>
             </div>

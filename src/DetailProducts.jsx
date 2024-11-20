@@ -99,7 +99,7 @@ const DetailProducts = () => {
                 {detailData.sizes}
               </p>
               <p className="text-5xl">
-                COP
+                Precio:
                 <span className="ml-4 text-green-600 font-bold">
                   {detailData.price.toLocaleString("es-US")}
                 </span>{" "}

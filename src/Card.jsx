@@ -33,12 +33,13 @@ const Card = ({ props }) => {
             </div>
             <div className="p-2">
               <div className="mb-3 h-10">
-                <h5 className="block font-sans text-base font-medium leading-snug tracking-normal text-blue-gray-900 antialiased">
+                <h5 className="block font-sans text-base font-medium leading-snug tracking-normal text-black antialiased">
                   {data.title}
                 </h5>
               </div>
               <p className="flex text-green-500  text-xl items-center gap-1.5 font-sans font-bold leading-relaxed text-blue-gray-900 antialiased">
-                ${data.price.toLocaleString("es-US")}
+                <span className="text-zinc-800 font-semibold">COP</span>
+                {data.price.toLocaleString("es-US")}{" "}
               </p>
             </div>
             <div className=" p-2 pt-0">

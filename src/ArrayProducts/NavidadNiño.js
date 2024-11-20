@@ -72,12 +72,18 @@ import Navidad38 from "../img/navidad-niño/NavidadReffECG5.jpeg";
 import Navidad39 from "../img/navidad-niño/NavidadRefECG05.jpeg";
 import Navidad40 from "../img/navidad-niño/NavidadReffECG05.jpeg";
 
+import Navidad41 from "../img/navidad-niño/NavidadRefSVP01.jpeg";
+import Navidad42 from "../img/navidad-niño/NavidadRefSVP02.jpeg";
+
+import Navidad43 from "../img/navidad-niño/NavidadRefSVP03.jpeg";
+import Navidad44 from "../img/navidad-niño/NavidadRefSVP04.jpeg";
+
 export const NavidadNiño = [
   {
     id: "01",
     title: "Conjunto baby santa 🎅🏻",
     ref: "CBS01",
-    price: 70000,
+    price: 55000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description: "Mameluco, Pantalón, Gorro personalizado",
     image: { img1: Navidad1, img2: Navidad1 },
@@ -384,12 +390,49 @@ export const NavidadNiño = [
     image: { img1: Navidad39, img2: Navidad39 },
   },
   {
-    id: "56",
-    title: "Enterizo 🎅🏻",
-    ref: "ECG0005",
-    price: 45000,
+    id: "57",
+    title: "Enterizo con gorro 🎅🏻",
+    ref: "ECG005",
+    price: 55000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18",
-    description: "Enterizo",
+    description: "Enterizo, Gorro personalizado",
     image: { img1: Navidad40, img2: Navidad40 },
+  },
+
+  {
+    id: "58",
+    title: "Conjunto con tirante 🎅🏻",
+    ref: "SVP01",
+    price: 55000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18",
+    description: "Enterizo, Pantalon con tirantes",
+    image: { img1: Navidad41, img2: Navidad41 },
+  },
+  {
+    id: "59",
+    title: "Conjunto con tirante 🎅🏻",
+    ref: "SVP02",
+    price: 55000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18",
+    description: "Enterizo, Pantalones con tirantes",
+    image: { img1: Navidad42, img2: Navidad42 },
+  },
+  {
+    id: "60",
+    title: "Conjunto con gorro 🎅🏻",
+    ref: "SVP03",
+    price: 55000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18",
+    description: "Enterizo, Pantalon, gorro",
+    image: { img1: Navidad43, img2: Navidad43 },
+  },
+  {
+    id: "61",
+    title: "Conjunto con gorro 🎅🏻",
+    ref: "SVP04",
+    price: 55000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18",
+    description: "Enterizo, Pantalon, gorro",
+    image: { img1: Navidad44, img2: Navidad44 },
   },
 ];

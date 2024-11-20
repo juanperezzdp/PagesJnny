@@ -93,10 +93,10 @@ import Navidad55 from "../img/navidad/NavidadRefFME001.jpeg";
 import Navidad56 from "../img/navidad/NavidadRefFM003.jpeg";
 import Navidad57 from "../img/navidad/NavidadReffFM003.jpeg";
 
-import Navidad58 from "../img/navidad/NavidadRefVAT001.jpeg";
-import Navidad59 from "../img/navidad/NavidadReffVAT001.jpeg";
+// import Navidad58 from "../img/navidad/NavidadRefVAT001.jpeg";
+// import Navidad59 from "../img/navidad/NavidadReffVAT001.jpeg";
 
-import Navidad60 from "../img/navidad/NavidadRefVA001.jpeg";
+// import Navidad60 from "../img/navidad/NavidadRefVA001.jpeg";
 
 import Navidad61 from "../img/navidad/NavidadRefFT003.jpeg";
 import Navidad62 from "../img/navidad/NavidadReffFT003.jpeg";
@@ -104,9 +104,9 @@ import Navidad62 from "../img/navidad/NavidadReffFT003.jpeg";
 import Navidad63 from "../img/navidad/NavidadRefFT002.jpeg";
 import Navidad64 from "../img/navidad/NavidadReffFT002.jpeg";
 
-import Navidad65 from "../img/navidad/NavidadRefA003.jpeg";
+// import Navidad65 from "../img/navidad/NavidadRefA003.jpeg";
 
-import Navidad66 from "../img/navidad/NavidadRefA002.jpeg";
+// import Navidad66 from "../img/navidad/NavidadRefA002.jpeg";
 
 import Navidad67 from "../img/navidad/NavidadRefVS001.jpeg";
 import Navidad68 from "../img/navidad/NavidadReffVS001.jpeg";
@@ -134,6 +134,56 @@ import Navidad79 from "../img/navidad/NavidadRefECG02.jpeg";
 import Navidad80 from "../img/navidad/NavidadReffECG02.jpeg";
 
 import Navidad81 from "../img/navidad/NavidadRefVP001.jpeg";
+
+import Navidad82 from "../img/navidad/NavidadRefVF01.jpeg";
+
+import Navidad83 from "../img/navidad/NavidadRefVF02.jpeg";
+
+import Navidad84 from "../img/navidad/NavidadRefVF03.jpeg";
+
+import Navidad85 from "../img/navidad/NavidadRefVF04.jpeg";
+
+import Navidad86 from "../img/navidad/NavidadRefVF05.jpeg";
+
+import Navidad87 from "../img/navidad/NavidadRefVF06.jpeg";
+
+import Navidad88 from "../img/navidad/NavidadRefVF07.jpeg";
+
+import Navidad89 from "../img/navidad/NavidadRefVF08.jpeg";
+
+import Navidad90 from "../img/navidad/NavidadRefVF09.jpeg";
+
+import Navidad91 from "../img/navidad/NavidadRefVF10.jpeg";
+
+import Navidad92 from "../img/navidad/NavidadRefVF11.jpeg";
+
+import Navidad93 from "../img/navidad/NavidadRefVF12.jpeg";
+
+import Navidad94 from "../img/navidad/NavidadRefVF13.jpeg";
+import Navidad95 from "../img/navidad/NavidadRefVF14.jpeg";
+
+import Navidad96 from "../img/navidad/NavidadRefVF15.jpeg";
+
+import Navidad97 from "../img/navidad/NavidadRefVF16.jpeg";
+import Navidad98 from "../img/navidad/NavidadRefVF17.jpeg";
+
+import Navidad99 from "../img/navidad/NavidadRefVF18.jpeg";
+import Navidad100 from "../img/navidad/NavidadRefVF19.jpeg";
+
+import Navidad101 from "../img/navidad/NavidadRefVF20.jpeg";
+import Navidad102 from "../img/navidad/NavidadRefVF21.jpeg";
+
+import Navidad103 from "../img/navidad/NavidadRefVF22.jpeg";
+import Navidad104 from "../img/navidad/NavidadRefVF23.jpeg";
+
+import Navidad105 from "../img/navidad/NavidadRefVF24.jpeg";
+import Navidad106 from "../img/navidad/NavidadRefVF25.jpeg";
+
+import Navidad107 from "../img/navidad/NavidadRefVF26.jpeg";
+
+import Navidad108 from "../img/navidad/NavidadRefVF27.jpeg";
+
+import Navidad109 from "../img/navidad/NavidadRefVF28.jpeg";
 
 export const NavidadNiña = [
   {
@@ -675,5 +725,203 @@ export const NavidadNiña = [
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
     description: "Vestido, Pantalón, Balaca",
     image: { img1: Navidad81, img2: Navidad81 },
+  },
+  {
+    id: "58",
+    title: "Asoleador de falda 🎅🏻",
+    ref: "VF0011",
+    price: 65000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Asoleador, Medias españolas, Balaca",
+    image: { img1: Navidad82, img2: Navidad82 },
+  },
+  {
+    id: "59",
+    title: "Asoleador Minnie y Mickey 🎅🏻",
+    ref: "VF0012",
+    price: 65000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Asoleador, Medias españolas, Balaca",
+    image: { img1: Navidad83, img2: Navidad83 },
+  },
+  {
+    id: "60",
+    title: "Set enterizo con mameluco 🎅🏻",
+    ref: "VF0013",
+    price: 60000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Enterizo, mameluco, Balaca",
+    image: { img1: Navidad84, img2: Navidad84 },
+  },
+  {
+    id: "61",
+    title: "Set cubre pañal con tirantes 🎅🏻",
+    ref: "VF0014",
+    price: 60000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Enterizo, Balaca, Medias españolas, Pañal con tirantes",
+    image: { img1: Navidad85, img2: Navidad85 },
+  },
+  {
+    id: "62",
+    title: "Asoleador año nuevo 🎅🏻",
+    ref: "VF0015",
+    price: 60000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Asoleador, Balaca, Medias españolas",
+    image: { img1: Navidad86, img2: Navidad86 },
+  },
+  {
+    id: "63",
+    title: "Set pantalón con mini falda 🎅🏻",
+    ref: "VF0016",
+    price: 60000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Enterizo, Balaca, Pantalón con mini falda",
+    image: { img1: Navidad87, img2: Navidad87 },
+  },
+  {
+    id: "64",
+    title: "Set cubre pañal y calentadores 🎅🏻",
+    ref: "VF0017",
+    price: 60000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Enterizo, Balaca, Cubre pañal, Calentadores",
+    image: { img1: Navidad88, img2: Navidad88 },
+  },
+  {
+    id: "65",
+    title: "Set cubre pañal y calentadores 🎅🏻",
+    ref: "VF0018",
+    price: 60000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Enterizo, Balaca, Cubre pañal, Calentadores",
+    image: { img1: Navidad89, img2: Navidad89 },
+  },
+  {
+    id: "66",
+    title: "Set de pantalón 🎅🏻",
+    ref: "VF0019",
+    price: 45000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Enterizo, Balaca, Patalon",
+    image: { img1: Navidad90, img2: Navidad90 },
+  },
+  {
+    id: "67",
+    title: "Set de pantalón 🎅🏻",
+    ref: "VF0020",
+    price: 45000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Enterizo, Balaca, Patalon",
+    image: { img1: Navidad91, img2: Navidad91 },
+  },
+  {
+    id: "68",
+    title: "Jardinera con falda 🎅🏻",
+    ref: "VF0021",
+    price: 65000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Jardinera con falda, Balaca, Medias españolas",
+    image: { img1: Navidad92, img2: Navidad92 },
+  },
+  {
+    id: "69",
+    title: "Jardinera santa 🎅🏻",
+    ref: "VF0022",
+    price: 60000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Jardinera , Balaca, Medias españolas",
+    image: { img1: Navidad93, img2: Navidad93 },
+  },
+  {
+    id: "70",
+    title: "Set Jardinera reno 🎅🏻",
+    ref: "VF0022",
+    price: 75000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Enterizo, Jardinera, Balaca, Medias españolas",
+    image: { img1: Navidad94, img2: Navidad95 },
+  },
+  {
+    id: "71",
+    title: "Set cubre pañal con tirantes 🎅🏻",
+    ref: "VF0022",
+    price: 60000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Enterizo, Cubre pañal, Balaca, Medias españolas",
+    image: { img1: Navidad96, img2: Navidad96 },
+  },
+  {
+    id: "72",
+    title: "Set Jardinera santa 🎅🏻",
+    ref: "VF0022",
+    price: 75000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Enterizo, Jardinera, Balaca, Medias españolas",
+    image: { img1: Navidad97, img2: Navidad98 },
+  },
+  {
+    id: "73",
+    title: "Jardinera pingüino 🎅🏻",
+    ref: "VF0022",
+    price: 75000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Enterizo, Jardinera, Balaca, Medias españolas",
+    image: { img1: Navidad99, img2: Navidad100 },
+  },
+  {
+    id: "74",
+    title: "Jardinera reno verde 🎅🏻",
+    ref: "VF0022",
+    price: 75000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Enterizo, Jardinera, Balaca, Medias españolas",
+    image: { img1: Navidad101, img2: Navidad102 },
+  },
+  {
+    id: "75",
+    title: "Set Jardinera santa 🎅🏻",
+    ref: "VF0022",
+    price: 75000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Enterizo, Jardinera, Balaca, Medias españolas",
+    image: { img1: Navidad103, img2: Navidad104 },
+  },
+  {
+    id: "76",
+    title: "Jardinera pingüino 🎅🏻",
+    ref: "VF0022",
+    price: 75000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Enterizo, Jardinera, Balaca, Medias españolas",
+    image: { img1: Navidad105, img2: Navidad106 },
+  },
+  {
+    id: "77",
+    title: "Asoleador de cuadro, osos 🎅🏻",
+    ref: "VF0022",
+    price: 65000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Jardinera, Balaca, Medias españolas",
+    image: { img1: Navidad107, img2: Navidad107 },
+  },
+  {
+    id: "78",
+    title: "Vestido año nuevo 🎅🏻",
+    ref: "VF0022",
+    price: 60000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Vestido, Balaca, Medias españolas",
+    image: { img1: Navidad108, img2: Navidad108 },
+  },
+  {
+    id: "79",
+    title: "Asoleador año nuevo 🎅🏻",
+    ref: "VF0022",
+    price: 65000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Asoleador, Balaca, Medias españolas",
+    image: { img1: Navidad109, img2: Navidad109 },
   },
 ];

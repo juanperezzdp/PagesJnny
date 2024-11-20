@@ -89,10 +89,6 @@ const DetailProducts = () => {
             <h2 className="font-bold text-2xl ">{detailData.title}</h2>
             <div>
               <p className="text-xl mb-2">
-                <span className="font-bold">Ref: </span>
-                {detailData.ref}
-              </p>
-              <p className="text-xl mb-2">
                 <span className="font-bold text-xl">Descripción: </span>
                 {detailData.description}
               </p>
@@ -103,10 +99,10 @@ const DetailProducts = () => {
                 {detailData.sizes}
               </p>
               <p className="text-5xl">
-                $
-                <span className=" text-green-600 font-bold">
+                COP
+                <span className="ml-4 text-green-600 font-bold">
                   {detailData.price.toLocaleString("es-US")}
-                </span>
+                </span>{" "}
               </p>
             </div>
 

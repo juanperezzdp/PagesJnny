@@ -187,6 +187,20 @@ import Navidad109 from "../img/navidad/NavidadRefVF28.jpeg";
 
 import Navidad110 from "../img/navidad/NavidadRefVF29.jpeg";
 
+import Navidad112 from "../img/navidad/NavidadRefVF30.jpeg";
+
+import Navidad113 from "../img/navidad/NavidadRefVF31.jpeg";
+
+import Navidad114 from "../img/navidad/NavidadRefVF32.jpeg";
+
+import Navidad115 from "../img/navidad/NavidadRefVF33.jpeg";
+
+import Navidad116 from "../img/navidad/NavidadRefVF34.jpeg";
+
+import Navidad117 from "../img/navidad/NavidadRefVF35.jpeg";
+
+import Navidad118 from "../img/navidad/NavidadRefVF36.jpeg";
+
 export const NavidadNiña = [
   {
     id: "01",
@@ -840,7 +854,7 @@ export const NavidadNiña = [
     id: "70",
     title: "Set Jardinera reno 🎅🏻",
     ref: "VF0022",
-    price: 75000,
+    price: 60000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
     description: "Enterizo, Jardinera, Balaca, Medias españolas",
     image: { img1: Navidad94, img2: Navidad95 },
@@ -858,7 +872,7 @@ export const NavidadNiña = [
     id: "72",
     title: "Set Jardinera santa 🎅🏻",
     ref: "VF0022",
-    price: 75000,
+    price: 60000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
     description: "Enterizo, Jardinera, Balaca, Medias españolas",
     image: { img1: Navidad97, img2: Navidad98 },
@@ -867,7 +881,7 @@ export const NavidadNiña = [
     id: "73",
     title: "Jardinera pingüino 🎅🏻",
     ref: "VF0022",
-    price: 75000,
+    price: 60000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
     description: "Enterizo, Jardinera, Balaca, Medias españolas",
     image: { img1: Navidad99, img2: Navidad100 },
@@ -876,7 +890,7 @@ export const NavidadNiña = [
     id: "74",
     title: "Jardinera reno verde 🎅🏻",
     ref: "VF0022",
-    price: 75000,
+    price: 60000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
     description: "Enterizo, Jardinera, Balaca, Medias españolas",
     image: { img1: Navidad101, img2: Navidad102 },
@@ -885,7 +899,7 @@ export const NavidadNiña = [
     id: "75",
     title: "Set Jardinera santa 🎅🏻",
     ref: "VF0022",
-    price: 75000,
+    price: 60000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
     description: "Enterizo, Jardinera, Balaca, Medias españolas",
     image: { img1: Navidad103, img2: Navidad104 },
@@ -894,7 +908,7 @@ export const NavidadNiña = [
     id: "76",
     title: "Jardinera pingüino 🎅🏻",
     ref: "VF0022",
-    price: 75000,
+    price: 60000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
     description: "Enterizo, Jardinera, Balaca, Medias españolas",
     image: { img1: Navidad105, img2: Navidad106 },
@@ -934,5 +948,68 @@ export const NavidadNiña = [
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
     description: "Asoleador, Balaca, Medias españolas",
     image: { img1: Navidad110, img2: Navidad110 },
+  },
+  {
+    id: "81",
+    title: "Asoleador con falda 🎅🏻",
+    ref: "VF0022",
+    price: 65000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Asoleador, Balaca, Medias españolas",
+    image: { img1: Navidad112, img2: Navidad112 },
+  },
+  {
+    id: "82",
+    title: "Asoleador 🎅🏻",
+    ref: "VF0022",
+    price: 60000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Asoleador, Balaca, Medias españolas",
+    image: { img1: Navidad113, img2: Navidad113 },
+  },
+  {
+    id: "83",
+    title: "Set Mameluco Oso 🎅🏻",
+    ref: "VF0022",
+    price: 35000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Mameluco, Balaca, Medias españolas",
+    image: { img1: Navidad114, img2: Navidad114 },
+  },
+  {
+    id: "84",
+    title: "Set Mameluco Oso 🎅🏻",
+    ref: "VF0022",
+    price: 35000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Mameluco, Balaca, Medias españolas",
+    image: { img1: Navidad115, img2: Navidad115 },
+  },
+  {
+    id: "85",
+    title: "Set Mameluco Oso 🎅🏻",
+    ref: "VF0022",
+    price: 35000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Mameluco, Balaca, Medias españolas",
+    image: { img1: Navidad116, img2: Navidad116 },
+  },
+  {
+    id: "86",
+    title: "Set Mameluco Santa 🎅🏻",
+    ref: "VF0022",
+    price: 35000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Mameluco, Balaca, Medias españolas",
+    image: { img1: Navidad117, img2: Navidad117 },
+  },
+  {
+    id: "87",
+    title: "Set Mameluco Oso 🎅🏻",
+    ref: "VF0022",
+    price: 35000,
+    sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
+    description: "Mameluco, Balaca, Medias españolas",
+    image: { img1: Navidad118, img2: Navidad118 },
   },
 ];

@@ -429,7 +429,7 @@ export const NavidadNiña = [
     id: "24",
     title: "Enterizo Santa🎅🏻",
     ref: "ES001",
-    price: 50000,
+    price: 57000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 y 18-24",
     description: "Enterizo, Gorro personalizado",
     image: { img1: Navidad39, img: Navidad38 },

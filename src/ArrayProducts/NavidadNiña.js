@@ -845,7 +845,7 @@ export const NavidadNiña = [
     id: "69",
     title: "Jardinera santa 🎅🏻",
     ref: "VF0022",
-    price: 70000,
+    price: 60000,
     sizes: "0-3, 3-6, 6-9, 9-12, 12-18 ,18-24",
     description: "Jardinera , Balaca, Medias españolas",
     image: { img1: Navidad93, img2: Navidad93 },
